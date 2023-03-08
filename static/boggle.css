@@ -1,0 +1,76 @@
+body {
+  background-color: mediumaquamarine;
+}
+
+h1 {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: "Nabla", cursive;
+  font-size: 100px;
+  text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+
+.board {
+  border: solid 2.5px black;
+  border-radius: 1.5rem;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 200%;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 0.25em;
+  background-color: rgb(255, 170, 0);
+}
+
+.board td {
+  text-align: center;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+p {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 0.25em;
+}
+
+form {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 0.25em;
+}
+
+input {
+  background-color: rgb(255, 170, 0);
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.msg {
+  margin-top: 20px;
+  padding: 1em;
+  border-radius: 1rem;
+}
+
+.msg.ok {
+  color: white;
+  background-color: green;
+}
+
+.msg.err {
+  color: white;
+  background-color: red;
+}
+
+li {
+  width: 50%;
+  margin: auto;
+  margin-right: 20px;
+  float: right;
+  font-weight: bold;
+}
